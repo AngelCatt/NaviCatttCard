@@ -1,0 +1,92 @@
+
+* {
+    font-family: "Roboto Slab", serif;
+  }
+
+  body {
+    background-color: #FAFAE8;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    box-sizing: border-box;
+    background-color: #AE8B70;
+    color: #FFE6C7;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px #3337;
+  }
+
+  .card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .card-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+
+  }
+
+  nav {
+    background-color: #F7D7AB;
+    text-align: left;
+    padding: 0;
+    margin: 5%;
+    border-radius: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  nav a {
+    color: #836149 ;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+  }
+
+  nav a:hover {
+    color: #FFE6C7;
+    background-color: #AE8B70;
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  section {
+    background-color: #F7D7AB;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  footer {
+    background-color: #F7D7AB;
+    text-align: center;
+    padding: 0;
+    margin: 5%;
+    border-radius: 10px;
+  }

@@ -2,25 +2,34 @@
 <html>
 <head>
     <title>Portafolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>    
-        <h1>Navi</h1>
+<body >
+    <header class="card">
+        <img src="https://th.bing.com/th/id/R.03f137aa3456f51c9f62d9e876e7a9ff?rik=tMY5NiYPQWnnkg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f1%2fe%2f1129346-cute-cats-wallpaper-1080x1920-full-hd.jpg&ehk=%2fJcdRdco6dASg87GmgQEx5VyEz7bYP%2fM%2bGHwd2mq20g%3d&risl=&pid=ImgRaw&r=0 
+        alt="Navi" class="card-image">   
+        <h1 class="card-title">Navi</h1>
+        <h2 class="card-subtitle">Pixel artist</h2>
+        <p class="card-content">Tengo 20 años y me gusta hacer <b>pixel art</b> desde hace 5 años. :3<br>
+        Este es mi primer proyecto en <b>Git</b> y estoy emocionado por aprender más sobre programación y desarrollo web.</p>
         <nav>
             <ul>
-                <li><a href="#Portafolio">Portafolio</a></li>
-                <li><a href="#Comisiones">Comisiones</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li id="Portafolio"><a href="#Portafolio">Portafolio</a></li>
+                <li id="Comisiones"><a href="#Comisiones">Comisiones</a></li>
+                <li id="Contacto"><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
+
     </header>
-    <section>
-    <h3>Sobre mí</h3>
-    <p>Tengo 20 años y me gusta hacer <b>pixel art</b> desde hace 5 años. :3<br>
-    Este es mi primer proyecto en <b>Git</b> y estoy emocionado por aprender más sobre programación y desarrollo web.</p>
     
-        Puedes encontrarme en mis redes sociales:
+    <section id="redes">
+
         <ul>
+            <p>Redes sociales:</p>
             <li><a href="https://www.facebook.com/navi.pixelart">Facebook</a></li>
             <li><a href="https://www.instagram.com/navi.pixelart">Instagram</a></li>
             <li><a href="https://www.twitter.com/navi_pixelart">Twitter</a></li>
@@ -62,7 +71,7 @@
     <section id="Contacto">
     <h2>Contacto</h2>
     <p>Si deseas contactarme para hacer una comisión, rellena el siguiente formulario:</p>
-    <form>
+    <form class="formulario">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre"><br>
         <label for="correo">Correo:</label>
@@ -79,7 +88,7 @@
 
     </p>
     </section>
-    
+
     <footer>
         <p>© 2021 Navi</p>
     </footer>
